@@ -1,0 +1,55 @@
+.parent-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #000000 0%, #666666 100%);
+  padding: 2rem;
+}
+
+.home-card {
+  width: min(520px, 100%);
+  background: rgba(30, 28, 28, 0.95);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  color: #f5f3f3;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.home-header h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+}
+
+.home-subtitle {
+  color: #c59898;
+  margin-bottom: 1.8rem;
+}
+
+.welcome-text {
+  color: #d1c7c7;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.welcome-text span {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #938080;
+  color: #262323;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+}

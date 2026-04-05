@@ -1,0 +1,74 @@
+.parent-container {
+  min-height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: linear-gradient(180deg, #030B33 0%, #000000 100%);
+  padding: 2rem !important;
+}
+
+.landing-card {
+  max-width: 520px;
+  width: 100%;
+  background: rgba(30, 28, 28, 0.95);
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  color: #f5f3f3;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.landing-card .eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #c59898;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.landing-card h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.landing-card p {
+  color: #d1c7c7;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  display: inline-block;
+  padding: 0.95rem 1.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.primary-btn {
+  background-color: #938080;
+  color: #262323;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #f5f3f3;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  transform: translateY(-2px);
+}
