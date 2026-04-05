@@ -14,7 +14,7 @@ function Home() {
     <div className="parent-container">
       <div className="home-card">
         <div className="home-header">
-          <h2>Welcome back</h2>
+          <h2>Hello</h2>
           <p className="home-subtitle">Your account is ready for action.</p>
         </div>
         <p className="welcome-text">

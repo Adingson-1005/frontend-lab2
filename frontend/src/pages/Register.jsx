@@ -58,7 +58,6 @@ function Register() {
       {success ? (
         <div>
           <p className="success">Registration successful!</p>
-          <Link to="/login">Go to Login</Link>
         </div>
       ) : (
         <form onSubmit={handleSubmit}>
